@@ -1,0 +1,120 @@
+﻿/*
+
+PortPort
+
+*/
+
+div.canvasCtr {
+    width: 1000px;
+    margin: 0 auto;
+    margin: 0px auto;
+}
+
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+div.pug {
+}
+
+    div.pug img {
+        display: block;
+        padding-top: 45px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 160px;
+        padding-right: 0;
+        position: absolute;
+    }
+
+div.start img {
+    display: block;
+    margin-right: auto;
+    margin-left: 400px;
+    padding-right: 0;
+    margin-top: 190px;
+    position: absolute;
+}
+
+
+div.club img {
+    display: block;
+    margin-left: 500px;
+    margin-right: auto;
+    margin-top: 360px;
+    padding-right: 0;
+    position: absolute;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.symbolContent {
+    display: block;
+    position: absolute;
+    background: #3e3e3e;
+    boder-raidus: 5px;
+    height: 200px;
+    color: White;
+    margin-left: 400px;
+    margin-right: auto;
+}
+
+.Positive {
+    color: Green;
+}
+
+.Negative {
+    color: Red;
+}
+
+.strikeZone li {
+    float: left;
+    padding: 0px 5px;
+    list-style: none;
+}
+
+#nyanCatCtr {
+    position: absolute;
+    margin-left: 165px;
+    margin-top: 260px;
+}
+
+
+.strikeZone {
+    position: absolute;
+    margin-left: 565px;
+    margin-top: 558px;
+}
+
+    .strikeZone li {
+        color: Red;
+        font-weight: bold;
+        font-size: 36px;
+    }
+
+
+
+.stockListBlip {
+    border: 1px solid black;
+    color: Black;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid black;
+    color: Black;
+    display: block;
+    margin-left: 460px;
+    margin-right: auto;
+    margin-top: 300px;
+    padding-right: 0;
+    position: absolute;
+}
+
+    .stockListBlip h2 {
+        padding: 10px 20px;
+    }

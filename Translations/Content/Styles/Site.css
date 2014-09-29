@@ -1,0 +1,269 @@
+﻿body *, body .menu a, .nav .disabledmenu:hover a span {
+
+}
+
+ul,li
+{
+	list-style:none;
+	margin:0px;
+}
+
+label
+{
+	display: inline;
+}
+
+.fltRight
+{
+ float:right;
+}
+
+.fltLeft
+{
+ float:left;
+}
+
+.clear
+{
+ clear:both;
+}
+
+.hide
+{
+ display:none;
+}
+
+.harness
+{
+	
+	width:100%;
+	background-color:#035A86;
+	height:50px;
+	font-family:arial, Sans-Serif;
+	   margin-bottom: 10px;
+	
+}
+
+.TEST .harness
+{
+    background-color:#3e3e3e;
+}
+
+.harness span, span.label
+{
+color:#fefefe;
+}
+
+iframe
+{
+	border:none;
+}
+
+
+
+/*
+Excel Upload Form
+*/
+
+div.TEST
+{
+  
+}
+
+
+form.excelUpload
+{
+	
+	color:#000;
+	background-color:#035A86;
+	border:1px solid #000;
+	position:absolute;
+	left:40%;
+	top:15%;
+	z-index:100;
+	
+}
+
+div.form h3
+{
+    color:#eee;
+    
+}
+
+.form div.controls
+{
+    padding:5px 0px;
+}
+
+div.form input
+{
+    font-size:15px;
+}
+
+ul.uploadForm li
+{
+	padding:5px 0px;
+	margin:5px 0px;
+	border-radius:4px;
+	background-color:#6699CC;
+	display: inline-block;
+}
+
+select.languageSelect
+{
+	width:80px;
+	margin:10px;
+}
+
+span.label
+{
+    font-weight:bold;
+}
+
+
+
+
+/*
+Grids
+
+*/
+
+div.output
+{
+    margin-top:-9px;
+}
+
+div.slick-header-column
+{
+    background-color:#035A86;
+    color:White;
+    
+    
+}
+
+
+
+
+footer
+{
+    position:relative;  
+    bottom:0;
+    height:317px;
+    overflow-y:hidden;
+    background-color:#035A86;
+    width:100%;
+}
+
+
+.TEST footer
+{
+    background-color:#3e3e3e;
+}
+
+.TEST footer div > div, footer div.errors
+{
+    width:30%;
+    float:left;
+    margin:5px;
+    border:1px solid #fff;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color:#e3e3e3;
+    padding:5px;
+}
+
+.TEST footer div.suggest
+{
+    float:right;
+}
+
+.TEST div.errors > div
+{
+       float: left;
+    margin: 1px;
+    padding: 1px;
+}
+
+div.errors
+{
+    height:100px;
+    overflow-y:scroll;
+}
+
+.glow
+{
+    border:1px solid #09A399;
+   -moz-box-shadow:    3px 3px 5px 6px #09A399;
+  -webkit-box-shadow: 3px 3px 5px 6px #09A399;
+  box-shadow:         3px 3px 5px 6px #09A399;
+  position:absolute;
+}
+
+.selector
+{
+    border:1px solid #09A399;
+   -moz-box-shadow:    3px 3px 5px 6px #09A399;
+  -webkit-box-shadow: 3px 3px 5px 6px #09A399;
+  box-shadow:         3px 3px 5px 6px #09A399;
+}
+
+.askent
+{    
+    margin-top:40px;
+      width: 98%;
+}
+
+.TEST footer div > div div.slangbox
+{
+   clear: both;
+   position: absolute;
+    width: 28%;
+
+
+}
+
+div.slangbox ul li
+{
+    float:left;
+    padding:2px;
+}
+
+h3.title
+{
+	text-align:center;
+	margin:0 auto;
+	display:inline;
+}
+
+.label
+{
+	font-size:12px;
+	padding:2px;
+	margin:2p;
+	background-color:inherit;
+}
+
+div.user
+{
+    padding: 2px;
+    width: 200px;
+    color:#ddd;
+    display:inline;
+}
+
+div.user img.avatar
+{
+	height:50px;
+	width:50px;
+	border-radius: 15px 15px 15px 15px;
+	
+}
+
+
+div.buffer
+{
+	background-image: url(".../Images/loader.gif");
+	background-position: 50% 50%;
+	background-repeat:no-repeat;
+	overflow:hidden;
+}

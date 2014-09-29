@@ -1,0 +1,98 @@
+﻿/* Utils */
+.float-left {
+    float:left;
+}
+
+.float-right {
+    float:right;
+}
+
+
+/* Site */
+body {
+    font-family:Calibri;
+    font-size:18px;
+    background-color:#1d1d1d;
+    color:#c1bfbf;
+}
+
+a:visited {
+    text-decoration:none;
+    color:#c1bfbf;
+}
+
+section#titleBar {
+    height:30px;
+}
+
+section#titleBar ul{}
+section#titleBar ul > li{
+ float:left;
+ padding: 10px;
+
+ border:1px solid #5b5b5b;
+ }
+
+section#titleBar ul > li a {
+ padding:10px;
+}
+
+section#MainContent,section#sideContent {
+    width:100%;
+}
+
+
+div.contentContainer {
+    float:left;
+    width:500px;
+    padding:2px;
+}
+
+div.contentContainer.gmailContainer {
+ clear:both;
+ float:none;
+ width:auto;
+}
+
+
+
+div.contentContainer h3 {
+      background-color:#274a67;
+      margin: 5px 0;
+}
+
+div.contentContainer li {
+    padding:5px;
+    xbackground-color:#c1bfbf;
+}
+
+div.contentContainer li:hover {
+
+}
+
+div.contentContainer li a, div.contentContainer h3 a  {
+    text-decoration:none;
+    color:#c1bfbf;
+    
+}
+
+section#mailboxes {
+    float:right;
+    padding:0px 10px;
+    background-color:#142a3c;
+    
+}
+
+section#mailboxes li {
+    float:left;
+    padding:3px;
+    border:2px solid #274a67;
+    border-radius:5px;
+    
+}
+
+section#mailboxes li:hover {
+    background-color:#193348;
+    cursor:pointer;
+    
+}

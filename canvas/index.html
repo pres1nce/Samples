@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<head>
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" />  -->
+
+</head>
+<title>Data Visualization Demo</title>
+<!-- <link rel="stylesheet" type="text/css" href="/Includes/Bootstrap/2.0.4/css/Bootstrap.css"></style> -->
+<style type="text/css">
+    body {
+        background-color: #000;
+        color: #fff;
+    }
+
+    nav {
+        float: right;
+    }
+
+        nav li {
+            float: left;
+            list-style: none;
+        }
+
+    div.intro {
+        position: absolute;
+        top: 100px;
+        font-family: sans-serif;
+        left: 200px;
+        width: 385px;
+    }
+
+    section#interface {
+        width: 200px;
+        position: absolute;
+        right: 0;
+        border: 1px solid #fff;
+    }
+</style>
+
+<body>
+
+    <!-- <section id="interface">
+
+           <a href="javascript:(build());">Build </a>
+
+    <div>
+    <label>Velocity <input id="velocity" name="velocity"/></label>
+    <label>Dimensions <input id="height" placeholder="height" name="height" /><input id="width" placeholder="width" name="width" /></label>
+    <br>
+    <label>Opacity <input type="checkbox" id="opacity" name="opacity" checked="true" /></label>
+    <br>
+    <label>Brightness <input  id="brightness" name="brightness"  /></label>
+      <a class="update" href="javascript:void(0)">Update</a>
+    </div>
+         </section>
+     -->
+
+
+
+
+    <canvas id="canvas"></canvas>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="/includes/jslib/jquery/jquery-1.9.1.js"></script> -->
+    <script type="text/javascript" src="js/helper.js"></script>
+    <script type="text/javascript">
+        // requestAnim shim layer by Paul Irish
+        // example code from mr doob : http://mrdoob.com/lab/javascript/requestanimationframe/
+        window.requestAnimFrame = (function () {
+            return window.requestAnimationFrame ||
+                    window.webkitRequestAnimationFrame ||
+                    window.mozRequestAnimationFrame ||
+                    window.oRequestAnimationFrame ||
+                    window.msRequestAnimationFrame ||
+                    function (/* function */ callback, /* DOMElement */ element) {
+                        window.setTimeout(callback, 1000 / 60);
+                    };
+        })();
+
+    </script>
+
+
+    <script type="text/javascript" src="js/base.js" />
+    <!--
+    <script type="text/javascript" src="deploy/buildTest.min.js"></script> -->
+
+    <script type="text/javascript">
+
+        var tester = new Tester(objects);
+        console.info(tester);
+
+
+        $("document").ready(function () {
+
+            $("section#interface a.update").on("click", function () {
+                var form = [];
+                debugger;
+                $("section#interface input").each(function () {
+                    form.push({ id: $(this).attr("id"), value: $(this).val() });
+                });
+
+                console.log(form);
+
+                tester.Update(form, parseInt($(this).val()));
+            })
+
+
+
+
+        });
+
+
+
+
+
+    </script>
+
+</body>
+</html>
