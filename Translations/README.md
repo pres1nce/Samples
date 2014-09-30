@@ -7,6 +7,6 @@ I decided that using an xls/xlsx file would be more efficient and managable sinc
 Items of interest:
 
 Javascript
-	Translations
-	Vuid -  Side project allows user to insert glyphs similar to how smartphone keyboards longpress
+
+	Slang -  Side project allows user to insert glyphs similar to how smartphone keyboards longpress
 Controller/Model/Request files
